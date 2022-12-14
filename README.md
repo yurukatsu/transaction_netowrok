@@ -27,7 +27,7 @@
 * [app][app-dir-url]: アプリの作成場所
 * [data][data-dir-url]: データの保管場
 * [db][db-dir-url]: データベースの作成場所
-* [docs][docs-dir-url]: データベースの作成場所
+* [docs][docs-dir-url]: メモ，スライドや論文等の書類の保管場所
 * [experiments][experiments-dir-url]: 分析や実験の作業場
 * [imgs][imgs-dir-url]: プロジェクト共通の画像を保管
 * [src][src-dir-url]: データに依存しないプロジェクト共通のプログラム
