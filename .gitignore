@@ -8,9 +8,9 @@
 *.pickle
 *.json
 *.yml
+!.gitkeep
 
 # Specific directory
-
 
 # vscode setting
 vscode
