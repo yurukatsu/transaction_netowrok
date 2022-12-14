@@ -4,7 +4,7 @@
 
 ## 各ディレクトリについて
 
-* [itnerim][interim-dir-url]: 最終成果物の保管場
+* [interim][interim-dir-url]: 最終成果物の保管場
 * [processed][processed-dir-url]: 中間生成物（加工したデータとか，一時的な実験結果とか）の保管場
 * [raw][raw-dir-url]: 生データの保管場
 
