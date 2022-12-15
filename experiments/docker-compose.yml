@@ -1,0 +1,14 @@
+version: '3'
+services:
+  experiments:
+    container_name: netexp
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/notebooks
+      - ../data:/data
+    tty: true
