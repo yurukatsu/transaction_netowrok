@@ -1,0 +1,26 @@
+a {
+color:#f3f578;
+text-decoration:none;
+}
+a:link {
+color:#f3f578;
+text-decoration:none;
+}
+a:visited {
+color:#ececf1;
+text-decoration:underline;
+}
+a:hover {
+    color:#ea720b;
+    border-bottom: 3px solid;
+    text-decoration:none;
+}
+a:focus {
+    border-bottom: 1px solid;
+    background: #ea720b;
+}
+
+a:active {
+    color:#ea720b;
+    text-decoration:none;
+}

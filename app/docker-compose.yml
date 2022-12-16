@@ -1,0 +1,15 @@
+version: '3'
+services:
+  streamlit_app:
+    container_name: streamlit_app
+    restart: always
+    build:
+      context: ./streamlit_app/docker
+      dockerfile: Dockerfile
+    ports:
+      - 58501:8501
+    volumes:
+      - ./streamlit_app:/app
+      - ../data:/app/data
+    tty: true
+    
